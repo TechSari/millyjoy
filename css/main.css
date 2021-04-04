@@ -1,0 +1,112 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+.col1{
+  float: left;
+  width:100%;
+  padding: 5px 10px;
+}
+col3{
+  float: center;
+  width:70%;
+  padding: 5px 10px;
+  left: 15%;
+  right: 15%	
+}
+.col2{
+	float: left;
+	width: 50%;
+	padding: 5px 10px;
+	}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.cardfirst{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  text-align: center;
+  background-image: url("images/1.png") no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: grey;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 60%;
+  padding: 7px;
+  background-color: milk;
+}
+.card1x {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 60%;
+  padding: 7px;
+  background-color: white;
+}
+.cardcenter {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 60%;
+  padding: 7px;
+  background-color: white;
+  text-align: center;
+  
+}
+
+
